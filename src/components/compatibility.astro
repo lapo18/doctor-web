@@ -10,12 +10,12 @@ const frameworks: Array<CompatibilityItem> = [
     url: "https://reactjs.org/",
   },
   {
-    title: "Preact",
+    title: "Wordpress",
     icon: "frameworks/preact",
     url: "https://preactjs.com/",
   },
   {
-    title: "Svelte",
+    title: "CSS3",
     icon: "frameworks/svelte",
     url: "https://svelte.dev/",
   },
@@ -25,12 +25,12 @@ const frameworks: Array<CompatibilityItem> = [
     url: "https://vuejs.org/",
   },
   {
-    title: "Solid",
+    title: "Javascript",
     icon: "frameworks/solid",
     url: "https://www.solidjs.com/",
   },
   {
-    title: "Lit",
+    title: "HTML5",
     icon: "frameworks/lit",
     url: "https://lit.dev/",
   },
@@ -67,14 +67,19 @@ const platforms: Array<CompatibilityItem> = [
     icon: "fa-brands:gitlab",
     url: "https://docs.gitlab.com/ee/user/project/pages/",
   },
+  {
+    title: "Bulma",
+    icon: "platforms/bulma",
+    url: "https://www.netlify.com/",
+  }
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Nuestro arsenal tecnológico" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Conoce las <span class="text-primary">herramientas</span> que nos permiten crear{" "}
+    <span class="text-primary">experiencias</span>
+    en línea <span class="text-primary">innovadoras</span>.
   </Fragment>
   <CompatibilityList
     items={frameworks}
